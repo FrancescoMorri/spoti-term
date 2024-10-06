@@ -11,3 +11,7 @@ Then just execute `run_app.sh` whenever you want to see the current playing song
 
 ### Clicable Executable on MacOS
 In case you want to have a clickable executable on MacOS, just right click on `run_app.sh` and select `Open with > Other...`, then select `Terminal` (to do so you need to change from `Recommended Applications` to `All Applications`). Finally, check the box `Always Open With` and click `Open`.
+
+## General Issues and To-Do's
+- The cover is not centered, but that should be an easy (?) fix
+- Pretty sure it could be optimized to run only when the key for new song is clicked, instead of constantly checking
