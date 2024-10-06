@@ -1,5 +1,6 @@
 # Spoti-Term
 **ONLY WORKS ON MAC SINCE IT USES APPLESCRIPT!!**
+
 Simple script to show basic information about the current playing song on Spotify in terminal. It prints a ASCII version of the album cover, the song name, the artist and the album name.
 ## How to use
 After cloning the repository, you can run the following command to install the dependencies:
