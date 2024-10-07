@@ -17,3 +17,4 @@ In case you want to have a clickable executable on MacOS, just right click on `r
 ## General Issues and To-Do's
 - The cover is not centered, but that should be an easy (?) fix
 - Pretty sure it could be optimized to run only when the key for new song is clicked, instead of constantly checking
+- Add a wave thingy that moves with the music
