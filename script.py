@@ -59,7 +59,8 @@ while True:
 		text = colored(f'{artist} - {title} - {album}', 'green', 'on_black', attrs=['bold', 'underline'])
 		if new_url != cur_url:
 			clear()
-			im_w = min(h,w)
+			tmp_w = min(h,w)
+			im_w = min(tmp_w+h,w)
 			output = climage.convert_pil(image, is_unicode=True, width=im_w)
 			print(output)
 			cur_url = new_url
@@ -68,7 +69,8 @@ while True:
 			#time.sleep(0.5)
 		if w != old_width or h != old_height:
 			clear()
-			im_w = min(h,w)
+			tmp_w = min(h,w)
+			im_w = min(tmp_w+h,w)
 			output = climage.convert_pil(image, is_unicode=True, width=im_w)
 			print(output)
 			old_width = w
